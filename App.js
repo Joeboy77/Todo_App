@@ -6,19 +6,21 @@ import Todo from './Components/Todo';
 import AddTodo from './Components/AddTodo';
 
 export default function App() {  
-
+//useState
   const [todo, setTodo] = useState([
     {text: 'Intern', key: '1'},
     {text: 'Football', key: '2'},
     {text: 'Sleep', key: '3'},
   ])
 
+  //function to handle press
   const handlePress = (key) =>{
     setTodo((prevTode) =>{
       return prevTode.filter(todo => todo.key != key)
     })
   }
 
+  //Another function for submision
   const submit = (text) =>{
 
     if(text.length > 3){
