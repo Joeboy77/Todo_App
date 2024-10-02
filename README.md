@@ -13,6 +13,6 @@ In order to use this open source project;
 # Running App
 To run the app on your mobile device, ensure that you have expo go installed on your mobile device.
 After that type npm start on your terminal with your directory to the location of the cloned repo.
-Expo will bundle and open it on your mobile device.
+Expo will bundle and open it on your mobile device. ENJOY
 # HAPPY CODING!!
    
